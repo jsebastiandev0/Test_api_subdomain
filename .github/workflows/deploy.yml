@@ -29,18 +29,18 @@ jobs:
       with:
         node-version: '20'
         cache: 'pnpm'
-        cache-dependency-path: 'frontend-app/pnpm-lock.yaml'  # Ruta específica
+        cache-dependency-path: 'frontend-app/pnpm-lock.yaml'
         
     - name: Install dependencies
       run: pnpm install
-      working-directory: ./frontend-app  # Tu carpeta
+      working-directory: ./frontend-app
       
     - name: Build
       run: pnpm run build
-      working-directory: ./frontend-app  # Tu carpeta
+      working-directory: ./frontend-app
       
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./frontend-app/build  # Ruta de build específica
+        publish_dir: ./frontend-app/dist
