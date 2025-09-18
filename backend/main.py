@@ -14,7 +14,12 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # frontend Vite
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://jsebastiandev0.github.io",
+        "https://test-app.jsebastian.dev",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
