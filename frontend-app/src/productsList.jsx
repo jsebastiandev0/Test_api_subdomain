@@ -5,7 +5,7 @@ function ProductsList() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:8000/products/?skip=0&limit=10') // API de prueba
+    fetch('https://test-api.jsebastian.dev/products/?skip=0&limit=10') // API de prueba
       .then((res) => res.json())
       .then((data) => {
         setProducts(data.products);

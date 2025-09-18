@@ -11,7 +11,7 @@ function AddProduct() {
     const product = { name, price: parseFloat(price) };
 
     try {
-      const res = await fetch('http://localhost:8000/products/', {
+      const res = await fetch('https://test-api.jsebastian.dev/products/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
