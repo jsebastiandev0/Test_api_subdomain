@@ -1,0 +1,50 @@
+# Ignorar archivos y directorios que no necesita el contenedor
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Archivos de configuración locales
+.env.local
+.env.development
+.env.test
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentación
+README.md
+docs/
+
+# Archivos de prueba
+tests/
+test_*.py
+*_test.py
+
+# Archivos de desarrollo
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Logs
+logs/
+*.log
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
