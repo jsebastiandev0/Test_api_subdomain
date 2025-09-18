@@ -1,6 +1,6 @@
 {
   "name": "frontend-app",
-  "homepage":"https://github.com/jsebastiandev0/Test_api_subdomain.git",
+  "homepage":"https://test-app.jsebastian.dev/health",
   "private": true,
   "version": "0.0.0",
   "type": "module",
