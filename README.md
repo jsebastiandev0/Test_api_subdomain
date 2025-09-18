@@ -1,3 +1,9 @@
+LIVE DEMO:
+
+1. API:     https://test-api.jsebastian.dev/docs
+2. APP:     https://test-app.jsebastian.dev/
+
+
 to run api: 
 
 
