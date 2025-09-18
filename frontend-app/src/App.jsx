@@ -37,7 +37,7 @@ function App() {
     <h1>Lista de productos</h1>
       <ProductsList />
       <AddProduct />
-      <span>loquesea jajaja x2</span>
+      <span>loquesea jajaja x2 lpm!</span>
     </>
   )
 }
