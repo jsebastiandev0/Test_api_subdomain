@@ -34,7 +34,7 @@ function App() {
     // </>
 
     <>
-    <h1>Lista de productos</h1>
+    <h1 className='title'>Lista de productos</h1>
       <ProductsList />
       <AddProduct />
       <span>loquesea jajaja x2 lpm!</span>
